@@ -34,7 +34,7 @@ First things first, we're going to do some setup on our computers before we can 
 
 #### Install pip
 
-Short for "Pip Installs Packages," pip is just what it sounds like. It's a package manager that installs python packages. We're going to use it for installing a series of python packages that our scraper will rely on. 
+Short for "Pip Installs Packages," pip is just what it sounds like. It's a package manager that installs python packages. We're going to use it for installing a series of Python packages that our scraper will rely on. 
 
 To install pip, open the Terminal on the MacLab machines. You can find it by using the spotlight and searching for "Terminal." 
 
