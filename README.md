@@ -65,8 +65,8 @@ Now that we've installed requests, we'll install BeautifulSoup. This library is 
 pip install beautifulsoup4 --user 
 ```
 
-#### Dependencies 
-We'll also install some dependencies that are necessary for all of these packages to work together.
+#### Install lxml and pyOpenSSL 
+We'll also install two other packages that are necessary for all of these packages to work together. [lxml](https://lxml.de/) processes xml and html in Python and is used by BeautifulSoup to parse. pyOpenSSL is used by requests and you can read more about it [here](https://pyopenssl.org/en/stable/introduction.html).
 ```
 pip install -U pyopenssl --user
 
