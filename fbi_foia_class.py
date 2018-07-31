@@ -14,6 +14,9 @@ html = requests.get(url)
 soup = BeautifulSoup(html.text, "lxml")
 raw_foias = soup.findAll('dd', attrs='contenttype-folder')
 
+# For class
+# print(soup.prettify())
+
 '''
 This loops through each of the foias listed and pulls the links, names and dates into individual lists.
 '''
