@@ -29,9 +29,9 @@ for row in raw_foias:
 	dates.append(str(date))
 
 '''
-Next, we zip the lists together into one called docs_list.
+Next, we zip the lists together into one called docs
 '''  
-docs_list=zip(files,dates,links)
+docs=zip(files,dates,links)
 
 '''
 Creates a new directory called foias if it doesn't exist.
@@ -40,6 +40,9 @@ directory=os.getcwd()
 if not os.path.exists(directory+'/foias'):
 	os.makedirs(directory+'/foias')
 
+'''
+Assigns the variable "folder" to our path with the newly created directory
+'''
 folder=directory+'/foias'
 
 '''
@@ -50,11 +53,11 @@ file_time=time.strftime("%Y%m%d%H")
 '''
 Creates a new csv of the current list of foias on the FBI's recently added page
 '''
-with open(folder+"/foias"+file_time+".csv", "wb") as outfile:
+with open(folder+"/foias"+file_time+".csv", "wb") as outfile: # Python 3 use "w"
 	writer = csv.writer(outfile, quotechar='"')
-	writer.writerow(['name','dates','link'])
-	for csv_row in docs_list:
+	writer.writerow(['name','dates','link']) # Notice we're creating a header row
+	for csv_row in docs: # Remember our loop from before for each row in our docs do X.
 		writer.writerow(csv_row)
-	print "CSV File Ready"
+	print("CSV File Ready") # Print this to the console when we're done.
 
 
