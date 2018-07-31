@@ -38,7 +38,7 @@ Short for "Pip Installs Packages," pip is just what it sounds like. It's a packa
 
 To install pip, open the Terminal on the MacLab machines. You can find it by using the spotlight and searching for "Terminal." 
 
-Then copy and paste the code contained below into your terminal window. We'll be installing just to our user profile, instead of the machine itself, so we won't run into problems with not being the administrator on the computers. 
+Then copy and paste the code contained below into your terminal window. We'll be installing just to our user profile, instead of the machine itself, so we won't run into problems with not being the administrator on the computers.
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o ~/Downloads/get-pip.py
 ```
