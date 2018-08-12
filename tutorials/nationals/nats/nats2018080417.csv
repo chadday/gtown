@@ -1,0 +1,26 @@
+jersey,name,bats_throws,height,weight,dob,position
+52,Jimmy Cordero,R/R,"6'4""",222lbs,10/19/91,Pitcher
+47,Gio Gonzalez,R/L,"6'0""",203lbs,9/19/85,Pitcher
+33,Matt Grace,L/L,"6'4""",215lbs,12/14/88,Pitcher
+58,Jeremy Hellickson,R/R,"6'1""",190lbs,4/8/87,Pitcher
+40,Kelvin Herrera,R/R,"5'10""",200lbs,12/31/89,Pitcher
+44,Ryan Madson,L/R,"6'6""",234lbs,8/28/80,Pitcher
+60,Justin Miller,R/R,"6'3""",215lbs,6/13/87,Pitcher
+46,Tommy Milone,L/L,"6'0""",215lbs,2/16/87,Pitcher
+57,Tanner Roark,R/R,"6'2""",229lbs,10/5/86,Pitcher
+31,Max Scherzer,R/R,"6'3""",215lbs,7/27/84,Pitcher
+36,Sammy Solis,R/L,"6'5""",251lbs,8/10/88,Pitcher
+51,Wander Suero,R/R,"6'4""",211lbs,9/15/91,Pitcher
+64,Spencer Kieboom,R/R,"6'0""",210lbs,3/16/91,Catcher
+32,Matt Wieters,S/R,"6'5""",235lbs,5/21/86,Catcher
+15,Matt Adams,L/R,"6'3""",245lbs,8/31/88,Infield
+1,Wilmer Difo,S/R,"5'11""",200lbs,4/2/92,Infield
+20,Daniel Murphy,L/R,"6'1""",221lbs,4/1/85,Infield
+6,Anthony Rendon,R/R,"6'1""",200lbs,6/6/90,Infield
+14,Mark Reynolds,R/R,"6'2""",220lbs,8/3/83,Infield
+7,Trea Turner,R/R,"6'2""",185lbs,6/30/93,Infield
+11,Ryan Zimmerman,R/R,"6'3""",215lbs,9/28/84,Infield
+2,Adam Eaton,L/L,"5'9""",176lbs,12/6/88,Outfield
+34,Bryce Harper,L/R,"6'3""",220lbs,10/16/92,Outfield
+22,Juan Soto,L/L,"6'1""",185lbs,10/25/98,Outfield
+3,Michael A. Taylor,R/R,"6'4""",212lbs,3/26/91,Outfield
