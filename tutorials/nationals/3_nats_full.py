@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import os
+import sys
 
 '''
 Sets our url to the FBI reading room location, then parses through using bs4 to locate only the links to files we want to download.
@@ -53,7 +54,7 @@ for table in raw_tables:
     for row in rows:
         if row.findAll('th'): # Notice here that I skipped the header row. 
             pass # And I'm just having it pass to the next row
-        else:   
+        else:
             jersey=row.find('td', attrs='dg-jersey_number').text
             name=row.find('a').text #  The name is in the link text.
             arm=row.find('td', attrs='dg-bats_throws').text
