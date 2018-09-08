@@ -1,0 +1,34 @@
+jersey,name,bats_throws,height,weight,dob,position
+55,Tim Collins,L/L,"5'7""",168lbs,8/21/89,Pitcher
+52,Jimmy Cordero,R/R,"6'4""",222lbs,10/19/91,Pitcher
+62,Sean Doolittle,L/L,"6'2""",204lbs,9/26/86,Pitcher
+23,Erick Fedde,R/R,"6'4""",195lbs,2/25/93,Pitcher
+30,Koda Glover,R/R,"6'5""",215lbs,4/13/93,Pitcher
+33,Matt Grace,L/L,"6'4""",215lbs,12/14/88,Pitcher
+56,Greg Holland,R/R,"5'10""",205lbs,11/20/85,Pitcher
+61,Kyle McGowin,R/R,"6'3""",195lbs,11/27/91,Pitcher
+60,Justin Miller,R/R,"6'3""",215lbs,6/13/87,Pitcher
+57,Tanner Roark,R/R,"6'2""",229lbs,10/5/86,Pitcher
+68,Jefry Rodriguez,R/R,"6'6""",232lbs,7/26/93,Pitcher
+41,Joe Ross,R/R,"6'4""",220lbs,5/21/93,Pitcher
+31,Max Scherzer,R/R,"6'3""",215lbs,7/27/84,Pitcher
+36,Sammy Solis,R/L,"6'5""",251lbs,8/10/88,Pitcher
+37,Stephen Strasburg,R/R,"6'5""",235lbs,7/20/88,Pitcher
+51,Wander Suero,R/R,"6'4""",211lbs,9/15/91,Pitcher
+50,Austin Voth,R/R,"6'2""",201lbs,6/26/92,Pitcher
+53,Austen Williams,R/R,"6'3""",220lbs,12/19/92,Pitcher
+64,Spencer Kieboom,R/R,"6'0""",210lbs,3/16/91,Catcher
+29,Pedro Severino,R/R,"6'1""",219lbs,7/20/93,Catcher
+32,Matt Wieters,S/R,"6'5""",235lbs,5/21/86,Catcher
+1,Wilmer Difo,S/R,"5'11""",200lbs,4/2/92,Infield
+6,Anthony Rendon,R/R,"6'1""",200lbs,6/6/90,Infield
+14,Mark Reynolds,R/R,"6'2""",220lbs,8/3/83,Infield
+5,Adrian Sanchez,R/R,"6'0""",216lbs,8/16/90,Infield
+7,Trea Turner,R/R,"6'2""",185lbs,6/30/93,Infield
+11,Ryan Zimmerman,R/R,"6'3""",215lbs,9/28/84,Infield
+2,Adam Eaton,L/L,"5'9""",176lbs,12/6/88,Outfield
+34,Bryce Harper,L/R,"6'3""",220lbs,10/16/92,Outfield
+16,Victor Robles,R/R,"6'0""",190lbs,5/19/97,Outfield
+22,Juan Soto,L/L,"6'1""",185lbs,10/25/98,Outfield
+45,Andrew Stevenson,L/L,"6'0""",192lbs,6/1/94,Outfield
+3,Michael A. Taylor,R/R,"6'4""",212lbs,3/26/91,Outfield

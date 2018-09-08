@@ -7,6 +7,10 @@ import time
 import os
 import sys
 
+'''
+Credit to former student Victoria Chamberlain for coming up with this idea and making the first scraper that this is based on.
+'''
+
 def main(files_root_path):
     '''
     Main function
@@ -21,7 +25,7 @@ def main(files_root_path):
 
 def render_page(url):
     '''
-    Sets our url to the FBI reading room location, then parses through using bs4 to locate only the links to files we want to download.
+    Sets our url to the Nationals roster location, then parses through using bs4 to locate only the links to files we want to download.
     Input:
         Url of the Nationals roster
     Output:
@@ -63,7 +67,7 @@ def parser(raw_data):
 
 def make_directories(files_root_path):
     '''
-    Creates a new directory called foias if it doesn't exist called nats
+    Creates a new directory if it doesn't exist called nats
     Input:
         The file path argument passed to the script
     Output:
@@ -103,5 +107,5 @@ if __name__=="__main__":
         main(files_root_path)
     except IndexError:
         msg = "ERROR: You must invoke this script with a target directory for file artifacts:" +\
-            "\n\tpython fbi_foia.py /path/to/files"
+            "\n\tpython 2_nats_refactor.py /path/to/files"
         print(msg)

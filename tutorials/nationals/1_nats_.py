@@ -7,6 +7,10 @@ import time
 import os
 
 '''
+Credit to former student Victoria Chamberlain for coming up with this idea and making the first scraper that this is based on.
+'''
+
+'''
 Sets our url to the FBI reading room location, then parses through using bs4 to locate only the links to files we want to download.
 '''
 url = 'http://m.nationals.mlb.com/roster/'
@@ -23,12 +27,12 @@ raw_data = soup.findAll('tr')
 This loops through each of the foias listed and pulls the links, names and dates into individual lists. * It was getting hung up on the header row. See below. *
 '''
 names=[] # I changed the name here.
-heights=[] 
+heights=[]
 dobs=[]
 for row in raw_data:
     if row.findAll('th'): # Notice here that I skipped the header row. 
             pass # And I'm just having it pass to the next row
-    else:   
+    else:
         name=row.find('a').text # If you take a look at the page, the name is in the link text.
         height=row.find('td', attrs='dg-height').text # Good job here, just had to add 's' to attrs
         dob=row.find('td', attrs='dg-date_of_birth').text # Good job here.
