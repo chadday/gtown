@@ -21,7 +21,7 @@ full_text = []
 '''
 We use wand to import our pdf file and then convert it to jpeg.
 '''
-file_pdf = Image(filename="pdf_test2.pdf", resolution=300) # Might run into some errors her
+file_pdf = Image(filename="pdf_test2.pdf", resolution=300) # Might run into some errors here
 file_jpeg = file_pdf.convert('jpeg')
 
 '''

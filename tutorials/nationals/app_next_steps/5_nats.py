@@ -6,6 +6,11 @@ from parsers.parser import render_page, pos_parser, player_parser
 from writers.writer import writer
 from utils.utils import make_directories, make_time
 
+'''
+Notice the structure of the import statements:
+    from directory.file import function_name
+Remember we're able to do this because of the init.py files.
+'''
 
 def main(files_root_path):
     '''
