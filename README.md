@@ -36,11 +36,12 @@ First things first, we're going to do some setup on our computers before we can 
 
 On a Mac, open a Terminal window and type `python`. (You can find the Terminal by using the spotlight and searching for "Terminal.") If you see something like this:
 
-`Python 3.6.8 (v3.6.8:3c6b436a57, Dec 24 2018, 02:04:31)
+```
+Python 3.6.8 (v3.6.8:3c6b436a57, Dec 24 2018, 02:04:31)
 [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
-`
+```
 
 You're in business.
 
@@ -49,10 +50,10 @@ On a Windows machine, if you installed the Microsoft store version, open a comma
 
 #### If not installed, install Python
 
-    [Mac installer instructions](https://www.python.org/downloads/)
+[Mac installer instructions](https://www.python.org/downloads/)
 
 
-  If Windows, I would suggest using the [Microsoft store version](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab) if you're looking to learn. You can also do the full install using the [Windows installer instructions](https://www.python.org/downloads/windows/). Note: Make sure to check the box during the install process to add Python to your path.
+If Windows, I would suggest using the [Microsoft store version](https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab) if you're looking to learn. You can also do the full install using the [Windows installer instructions](https://www.python.org/downloads/windows/). Note: Make sure to check the box during the install process to add Python to your path.
 
 
 #### Install pip
@@ -85,13 +86,16 @@ pip install notebook
 
 To make sure you have it installed, type:
 
-`jupyter notebook`
+```
+jupyter notebook
+```
 
 A notebook session should pop up in your browser of choice.
 
 #### Install requests
 
-Next, we'll be using pip to install the Python packages we'll need. The first one is requests. You can read more about [requests](http://docs.python-requests.org/en/master/), but the short version is that requests is a package, or library, that allows us to make HTTP requests (i.e. follow urls and return their content) in Python. Now that we've install pip, the installation is easy. 
+Next, we'll be using pip to install the Python packages we'll need. The first one is requests. You can read more about [requests](http://docs.python-requests.org/en/master/), but the short version is that requests is a package, or library, that allows us to make HTTP requests (i.e. follow urls and return their content) in Python. Now that we've install pip, the installation is easy.
+
 ```
 pip install requests --user
 ```
