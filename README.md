@@ -6,17 +6,21 @@ A place to put some of the tutorials we'll be using for basic python and webscra
 
 ## Basic web scraping with Python
 
-Today, we'll be adding to our data journalism toolkit by getting a quick introduction to Python, working with a csv file and then writing a small webscraper to pull down a list of FBI recently released FOIA requests.
+Over the next few classes, we'll be adding to our data journalism toolkit by getting an introduction to Python, working with a csv file and getting comfortable with the langugage syntax. Then, we'll learn about how the Internet works, how to identify data that's not in spreadsheet form and lastly, write a small webscraper to pull down a list of FBI recently released FOIA requests.
 
 ## Why are we doing this
 
-As we've learned in class, most data doesn't come in a nice clean format. Many times we have to compile it ourselves. With web scraping, we can do that and more as you'll see. In this case, we're scraping this [website in the FBI's FOIA Reading Room](https://vault.fbi.gov/recently-added).
+Python is a versatile language that can save you time and help you tell better stories whether by automating tasks, wrangling large datasets or simply putting your analysis all in one reproducable place. It is also a great tool to gather data to use for stories.
+
+As we've learned in class, a lot of revelatory data doesn't come in a nice clean format. Many times we have to compile it ourselves. With web scraping, we can do that and more as you'll see. In this case, we will be scraping this [website in the FBI's FOIA Reading Room](https://vault.fbi.gov/recently-added).
 
 The way to think of this is as a before-and-after exercise. Before, the data exists as an HTML web page out on the Internet. After, we'll have a nice clean csv of the names of the documents, the links to their location and the date of their posting. In between, we'll be learning a lot about Python programming that you can use in everyday reporting.
 
 ## Getting started
 
-First, let's talk about text editors. For the purposes of this class, we're going to be using the MacLab computers and the Sublime text editor installed on them. But if you're working on your own computer, here are some suggestions:
+Normally in this class we would use the MacLab computers and the Sublime text editor installed on them. But since we're learning remotely this semester, we'll be working on our own computers and we'll need to take some time to make sure everything is installed correctly.
+
+First, let's talk about text editors.
 
 #### For Mac
 
@@ -31,6 +35,10 @@ Jack and I are both fans of [Notepad++](https://notepad-plus-plus.org/). It has 
 ## Installation
 
 First things first, we're going to do some setup on our computers before we can start programming in Python. We will be coding in Python 3 (preferably 3.6 or higher).
+
+ - Install Python, if not already
+ - Install `pip`
+ - Install Jupyter notebooks
 
 #### Check your python install
 
@@ -58,21 +66,24 @@ If Windows, I would suggest using the [Microsoft store version](https://www.micr
 
 #### Install pip
 
-Short for "Pip Installs Packages," pip is just what it sounds like. It's a package manager that installs python packages. We're going to use it for installing a series of Python packages that our scraper will rely on.
+Short for "Pip Installs Packages," pip is just what it sounds like. It's a package manager that installs python packages. We're going to use it for installing a series of Python packages that we'll use in our tutorial and our scraper.
 
 On Windows, if you installed from the Microsoft store, it should be included.
 
-On Mac, to install pip, open the Terminal. Then copy and paste the code contained below into your terminal window. We'll be installing just to our user profile, instead of the machine itself, so we won't run into problems with not being the administrator on the computers.
+On Mac, to install pip, open the Terminal. Then copy and paste the commands below into your terminal window. We'll be installing just to our user profile, instead of the machine itself, so we won't run into problems with not being the administrator on the computers.
+
+
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o ~/Downloads/get-pip.py
 ```
-Once the file has downloaded, enter this:
+Once the file has downloaded and if it is in your Downloads folder, enter this:
 ```
 python ~/Downloads/get-pip.py --user
 ```
 
 After install, type `pip` into your terminal and press Enter. A help menu should pop up. If not, make sure it's added to your path, try ```echo $PATH ``` and you should see it added to your PATH.
 
+If you're still having trouble on Windows, this [walkthrough](https://datatofish.com/add-python-to-windows-path/) should help.
 
 #### Install Jupyter notebook
 
